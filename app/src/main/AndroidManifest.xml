@@ -22,7 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InstaActivity"></activity>
+        <activity android:name=".InstaActivity" />
+        <activity android:name=".UserfeedAct"></activity>
     </application>
 
 </manifest>

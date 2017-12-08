@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity {
 
         ParseUser currentUser = ParseUser.getCurrentUser();
 
-        if(currentUser != null){
+       // if(currentUser.toString() != null){
 
-            Intent it = new Intent(MainActivity.this, InstaActivity.class);
-            startActivity(it);
-        }
+         //   Intent it = new Intent(MainActivity.this, InstaActivity.class);
+          //  startActivity(it);
+        //}
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
     }
